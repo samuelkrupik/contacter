@@ -1,6 +1,6 @@
 # Contacter
 
-###### Lightweight contact form package for laravel
+:zap: Lightweight contact form package for laravel
 
 ## Installation
 
@@ -12,6 +12,12 @@ composer require samuelkrupik/contacter
 This will create new table in database for storing contacts.
 ```bash
 php artisan migrate
+```
+
+## Laravel without auto discovery
+If you don't use auto-discovery, add the ContacterServiceProvider to the providers array in config/app.php
+```php
+SamuelKrupik\Contacter\ContacterServiceProvider::class,
 ```
 
 ## Preparing queue
