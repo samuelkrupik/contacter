@@ -1,0 +1,20 @@
+{
+    "name": "samuelkrupik/contacter",
+    "description": "Simple contact us form for laravel.",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Samuel Krupík",
+            "email": "samo.krupik@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "SamuelKrupik\\Contacter\\": "src/"
+        }
+    }
+}
